@@ -1,5 +1,5 @@
 - 객체지향의 특성을 올바르게 사용하는 방법 → 올바르게 설계하기 위한 방법
-- **“응집도는 높이고 결합도는 낮춰라”**는 고전 원칙을 객체지향의 관점에서 재정립
+- **“응집도는 높이고 결합도는 낮춰라”** 는 고전 원칙을 객체지향의 관점에서 재정립
 - 추상화된 객체지향의 세계의 법도
 
 ### **SRP**(Single Responsibility Principle) : 단일 책임 원칙
@@ -13,6 +13,8 @@
 
 - 소프트웨어 엔티티(클래스, 함수,등)는 확장에는 열려 있으나 변경에는 닫혀 있어야 한다
 - 자신의 확장에는 열려 있고, 주변의 변화에 대해서는 닫혀 있어야 한다
+
+![image](https://github.com/JoosungKwon/oop-intro-for-spring/assets/99165624/1bcfdeb9-ccb8-4288-ba99-4a872cd88a5f)
 
 - 예시: JVM, JDBC, InputStream,등..
 - 유연성, 재사용성, 유지보수성을 높일 수 있다
@@ -35,6 +37,8 @@ Super object = new Sub(); -> 논리적으로도, 물리적으로도 역할을 �
 ### **DIP**(Dependency Inversion Principle): 의존관계 역전 원칙
 
 - 자주 변경되는 구체(Concrete)에 의존하지 마라, 자신보다 변하기 쉬운 것에 의존하지 마라
+
+![image](https://github.com/JoosungKwon/oop-intro-for-spring/assets/99165624/7f5400be-8d74-4be6-b211-dd74a1c73815)
 
   **이미지**: 의존 방향이 역전되는 모습(UML), OCP의 그림과 동일 →  하나의 해결책에 여러 설계원칙이 녹아 있는 경우가 많다.
 
